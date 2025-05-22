@@ -4,7 +4,7 @@ import { useState } from 'react'
 const Even = () => {
     const [count, setCount] = useState(0);
 
-    const isEven = count% 2 === 0;
+    const isEven = count % 2 === 0;
 
     return (
         <div>
