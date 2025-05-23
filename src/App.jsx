@@ -2,13 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Even from './Even'
+import Even from './components/Even'
+import ToggleMessage from './components/ToggleMessage'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Even />
+    <ToggleMessage />
   )
 }
 
