@@ -11,8 +11,10 @@ function App() {
 
   return (
     <>
-    <UserCard name = "pranusha" email = "pranushak87@gmail.com" age={35} />
-    <UserCard name = "Risha" email = "pranushak87@gmail.com" age={8} />
+    {/* <UserCard name = "pranusha" email = "pranushak87@gmail.com" age={35} />
+    <UserCard name = "Risha" email = "pranushak87@gmail.com" age={8} /> */}
+
+    <Counter />
     </>
   )
 }
