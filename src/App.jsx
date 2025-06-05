@@ -5,6 +5,7 @@ import './App.css'
 import Even from './components/Even'
 import ToggleMessage from './components/ToggleMessage'
 import UserCard from './components/UserCard'
+import Counter from './components/Counter'
 
 function App() {
   const [count, setCount] = useState(0)

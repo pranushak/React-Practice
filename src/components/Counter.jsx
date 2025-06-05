@@ -1,10 +1,16 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
+
 
 const Counter = () => {
-    useEffect(() => {console.log("component rendered!");},
-        []);
+   const [count, setCount] = useState(0);
+    useEffect(() => {console.log("component rendered!");},[count]
+        );
 
-    return <h1>Hello</h1>
+    return <>
+    <h1>Count : {count}</h1>
+      <button onClick={() => setCount(count+1)}>Increment</button>
+      <button onClick={() => setCount(count-1)}>Decrement</button>
+    </>
 }
 
 export default Counter;
